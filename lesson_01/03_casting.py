@@ -26,3 +26,4 @@ print(bool(""))  # False
 print(bool(" "))  # True
 print(bool("0"))  # True
 print(bool("3"))
+
