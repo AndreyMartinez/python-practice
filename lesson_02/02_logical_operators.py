@@ -31,3 +31,8 @@ else:
 subject_school = input("Enter your subject school: ")
 name_professor = "MR Carlos" if subject_school == "math" else "MR Hernesto"
 print(f"the professor name is {name_professor}")
+
+
+have_passport = input("Do you have a passport? (yes/no) ")
+can_continue = True if have_passport == "yes" else False
+print(f"You can continue: {can_continue}")
